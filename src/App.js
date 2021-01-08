@@ -1,9 +1,11 @@
-import React from 'react';
+import PupForm from './components/PupForm';
+import PupImage from './components/PupImage';
 
-function App() {
-  return (
-    <h1>Hello world!</h1>
-  );
-}
+const App = () => (
+  <div id="app">
+    <PupForm />
+    <PupImage />
+  </div>
+);
 
 export default App;
